@@ -1,0 +1,68 @@
+
+\documentclass[a4paper,12pt]{article}
+\usepackage{graphicx}
+\usepackage{geometry}
+\usepackage{array}
+\usepackage{titlesec}
+\geometry{margin=1in}
+\titleformat{\section}{\large\bfseries}{\thesection.}{1em}{}
+
+\begin{document}
+
+% Header
+\begin{minipage}{0.7\textwidth}
+    \LARGE{\textbf{Sagnik Mitra}} \\
+    \normalsize
+    1234 Dum Dum, Kolkata – 700110 \\
+    Phone: +91-9876549210 \\
+    Email: sagnik@example.com
+\end{minipage}
+\hfill
+\begin{minipage}{0.25\textwidth}
+    \includegraphics[width=3cm]{passport.jpg} 
+\end{minipage}
+
+\vspace{0.5cm}
+\hrule
+\vspace{0.5cm}
+
+% Degrees
+\section*{Educational Qualifications}
+\begin{tabular}{|m{4cm}|m{5cm}|m{3cm}|}
+\hline
+\textbf{Degree} & \textbf{Institution} & \textbf{Year} \\
+\hline
+BCA & MAKAUT University & 2025 \\
+\hline
+Higher Secondary & ABC High School & 2022 \\
+\hline
+Secondary & XYZ School & 2020 \\
+\hline
+\end{tabular}
+
+\vspace{0.5cm}
+
+% Awards
+\section*{Awards and Achievements}
+\begin{itemize}
+    \item Secured 1st Rank in University-level Coding Competition (2024)
+    \item Received Certificate of Excellence in Graphic Design (2023)
+\end{itemize}
+
+% Skills
+\section*{Technical and Language Skills}
+\begin{itemize}
+    \item Programming: Python, C, Java
+    \item Web Development: HTML, CSS, JavaScript
+    \item Languages: English, Bengali, Hindi, Spanish
+\end{itemize}
+
+% Interests
+\section*{Activities and Interests}
+\begin{itemize}
+    \item Discovering new Technology
+    \item Playing Chess
+    \item Table tennis and Marathons
+\end{itemize}
+
+\end{document}
